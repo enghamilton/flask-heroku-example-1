@@ -4,7 +4,7 @@ from flask import Flask, jsonify, requests
 app = Flask(__name__)
 
 USERNAME = "enghamilton"
-PASSWORD = "1234567"
+PASSWORD = "p4dcGj97"
 
 LOGIN_URL = "https://github.com/login?return_to=%2Fenghamilton"
 URL = "https://github.com/enghamilton?tab=repositories"
@@ -32,7 +32,7 @@ def index():
     return jsonify(json_data)
 
 @app.route('/login')
-def index():
+def secondIndex():
     """Return logged github page."""
     return main()
 
