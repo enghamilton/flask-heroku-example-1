@@ -29,10 +29,11 @@ def main():
 def index():
     """Return homepage."""
     json_data = {'Hello': 'World!'}
-    return jsonify(json_data)
+    #return jsonify(json_data)
+    return main()
 
 @app.route('/login')
-def secondIndex():
+def index():
     """Return logged github page."""
     return main()
 
