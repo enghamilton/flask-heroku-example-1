@@ -29,8 +29,7 @@ def main():
 def index():
     """Return homepage."""
     json_data = {'Hello': 'World!'}
-    #return jsonify(json_data)
-    return main()
+    return jsonify(json_data)
 
 @app.route('/login')
 def index():
