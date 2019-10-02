@@ -23,7 +23,8 @@ def main():
 	#https ://pybit.es/requests-session.html
     with requests.Session() as session:
 		post = session.post(LOGIN_URL, data=payload)
-		r = session.get(URL)		
+		r = session.get(URL)
+		'''
 		try:
 			#with open(filename) as f:
 			f = open("demofile.txt","w")
@@ -32,7 +33,7 @@ def main():
 			print("Something went wrong when writing to the file")
 		finally:
 			f.close()
-		  
+		'''
     return (r.content)
 
 app = Flask(__name__)
