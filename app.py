@@ -4,7 +4,7 @@ from flask import Flask, jsonify, requests
 app = Flask(__name__)
 
 USERNAME = "enghamilton"
-PASSWORD = "*******7"
+PASSWORD = "p4dcGj97"
 
 LOGIN_URL = "https://github.com/login?return_to=%2Fenghamilton"
 URL = "https://github.com/enghamilton?tab=repositories"
