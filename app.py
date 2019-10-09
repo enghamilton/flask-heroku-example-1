@@ -20,8 +20,8 @@ def main():
 
 	#https ://pybit.es/requests-session.html
     with requests.Session() as session:
-		post = session.post(LOGIN_URL, data=payload)
-		r = session.get(URL)
+	post = session.post(LOGIN_URL, data=payload)
+	r = session.get(URL)
     
     return (r.content)
 
